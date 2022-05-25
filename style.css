@@ -6,6 +6,9 @@
 .content {
     background-color: slategray;
     grid-column-start: 2;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr
 }
 
 .sidebar {
@@ -23,4 +26,20 @@
 
 body {
     margin: 0px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-start: 1;
+}
+
+.announcement {
+    grid-column-start: 2;
+    grid-row-start: -1;
+}
+
+.trending {
+    grid-column-start: 2;
+    grid-row-start: 2
 }
