@@ -1,0 +1,26 @@
+.header {
+    background-color: white;
+    grid-column-start: 2
+}
+
+.content {
+    background-color: slategray;
+    grid-column-start: 2;
+}
+
+.sidebar {
+    background-color:aqua;
+    grid-row: 1/ span 2;
+}
+
+.page {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 4fr;
+    margin: 0px;
+    height: 100vh
+}
+
+body {
+    margin: 0px;
+}
