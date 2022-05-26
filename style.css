@@ -239,3 +239,18 @@ button {
     margin-bottom: 10px;
     opacity: 0.6;
 }
+
+.trendingContent {
+    display: grid;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tegan, .morganTrending, .kendall, .penguin {
+    display: flex;
+
+}
+
+.trendingText {
+    opacity: 0.6;
+}
