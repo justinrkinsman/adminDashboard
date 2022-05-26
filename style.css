@@ -1,3 +1,7 @@
+* {
+    font-family: sans-serif;
+}
+
 .header {
     background-color: white;
     grid-column-start: 2;
@@ -99,7 +103,8 @@ button {
 }
 
 .yourProjects {
-    grid-column: 1/span 2
+    grid-column: 1/span 2;
+    font-weight: bold;
 }
 
 .login {
@@ -108,4 +113,8 @@ button {
 
 .buttons {
     justify-self: end;
+}
+
+.cardTitle {
+    font-weight: bold;
 }
