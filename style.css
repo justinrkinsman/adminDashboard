@@ -65,4 +65,13 @@ body {
     grid-row: 2
 }
 
-img {}
+.profilePicMain {
+    border-radius: 50%;
+    height: 50px;
+}
+
+.profilePic {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
