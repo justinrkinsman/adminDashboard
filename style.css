@@ -52,6 +52,10 @@ body {
     grid-row-start: -1;
 }
 
+.announcements {
+    display: grid;
+}
+
 .announcementContent {
     margin-bottom: 5px;
 }
@@ -229,4 +233,9 @@ button {
 .cardImg {
     align-self: end;
     justify-self: end
+}
+
+.divider {
+    margin-bottom: 10px;
+    opacity: 0.6;
 }
