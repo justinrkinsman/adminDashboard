@@ -221,3 +221,12 @@ button {
     border-radius: 25px;
     border: 2px solid gray
 }
+
+.superCool, .lessCool, .impossible, .easy, .adBlocker, .money {
+    display: grid;
+}
+
+.cardImg {
+    align-self: end;
+    justify-self: end
+}
