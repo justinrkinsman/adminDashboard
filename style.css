@@ -37,6 +37,8 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-start: 1;
+    gap: 10px;
+    padding: 10px;
 }
 
 .announcement {
@@ -57,12 +59,24 @@ body {
 
 .buttons {
     grid-column: 2;
-    grid-row: 2
+    grid-row: 2;
+}
+
+button {
+    border-radius: 50px;
+    border: none;
+    background-color: aqua
 }
 
 .greeting {
     grid-column: 1;
-    grid-row: 2
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 60px 1fr;
+}
+
+.greetingTxt {
+    display: grid;
 }
 
 .profilePicMain {
@@ -74,4 +88,24 @@ body {
     border-radius: 50%;
     height: 30px;
     width: 30px;
+}
+
+.login {
+    display: flex;
+}
+
+.superCool, .lessCool, .impossible, .easy, .adBlocker, .money, .announcementContent, .trendingContent {
+    background-color: white;
+}
+
+.yourProjects {
+    grid-column: 1/span 2
+}
+
+.login {
+    justify-content: end;
+}
+
+.buttons {
+    justify-self: end;
 }
