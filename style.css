@@ -3,7 +3,7 @@
 }
 
 .header {
-    background-color: white;
+    background-color: #f5f5f5;
     grid-column-start: 2;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -11,17 +11,17 @@
 }
 
 .content {
-    background-color: slategray;
+    background-color: #a3a3a3;
     grid-column-start: 2;
     display: grid;
     grid-template-columns: 3fr 1fr;
-    grid-template-rows: 1fr 1fr
+    grid-template-rows: 1fr;
 }
 
 .sidebar {
-    background-color:aqua;
+    background-color:#06b6d4;
     grid-row: 1/ span 2;
-    color: white;
+    color: #f5f5f5;
     text-shadow: 1px 1px 1px #000000
 }
 
@@ -57,7 +57,7 @@ body {
 
 .tabs {
     list-style: none;
-    color: rgb(255, 255, 255);
+    color: #f5f5f5;
     text-shadow: 1px 1px 1px #000000
 }
 
@@ -69,7 +69,7 @@ body {
 button {
     border-radius: 50px;
     border: none;
-    background-color: aqua
+    background-color: #06b6d4
 }
 
 .greeting {
@@ -99,7 +99,7 @@ button {
 }
 
 .superCool, .lessCool, .impossible, .easy, .adBlocker, .money, .announcementContent, .trendingContent {
-    background-color: white;
+    background-color: #f5f5f5;
 }
 
 .yourProjects {
@@ -117,4 +117,10 @@ button {
 
 .cardTitle {
     font-weight: bold;
+}
+
+.rightSide {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
 }
