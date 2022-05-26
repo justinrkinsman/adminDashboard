@@ -43,6 +43,7 @@ body {
     grid-column-start: 1;
     gap: 10px;
     padding: 10px;
+    grid-template-rows: 20px
 }
 
 .announcement {
@@ -50,7 +51,12 @@ body {
     grid-row-start: -1;
 }
 
+.announcementContent {
+    margin-bottom: 5px;
+}
+
 .trending {
+    margin-top: 5px;
     grid-column-start: 2;
     grid-row-start: 2
 }
@@ -100,11 +106,19 @@ button {
 
 .superCool, .lessCool, .impossible, .easy, .adBlocker, .money, .announcementContent, .trendingContent {
     background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 16px
 }
 
 .yourProjects {
     grid-column: 1/span 2;
     font-weight: bold;
+}
+
+.announcementContent {
+    display: grid;
+    gap: 10px;
+    padding: 10px;
 }
 
 .login {
@@ -123,4 +137,43 @@ button {
     display: flex;
     flex-direction: column;
     margin: 10px;
+}
+
+.announcementTitle, .trendingTitle {
+    font-weight: bold
+}
+
+.announcementTitle {
+    height: 30px;
+}
+
+.trendingTitle {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+.sidebarTab {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sidebarImg {
+    margin-right: 10px;
+}
+
+.communities {
+    margin-bottom: 30px;
 }
